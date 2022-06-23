@@ -15,8 +15,6 @@ I would definitely improve the form if I had more time to do so. I feel like the
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
 I am so used to doing custom styling that I forgot how tricky Bootstrap can be when you are trying to override their styling. I had fun workin on the validation even though I was running into a few roadblocks. I chose to use some regex and I definitely struggled with it! But I think I got the functionality to do what I wanted it to.
 
 
