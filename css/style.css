@@ -1,0 +1,116 @@
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+i {
+    padding-right: .2rem;
+    color: rgb(137, 215, 27);
+}
+
+
+/* HERO IMG STYLING */
+#hero-img {
+    max-width: 90%;
+    margin: 5rem 1rem;
+}
+
+/* ROLLOUT HEADINGS STYLING */
+.rollout-headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.rollout-headings > h1 {
+    font-size: 2.3rem;
+    padding-block: 1rem;
+}
+
+.rollout-headings > p {
+    font-size: 1.2rem;
+}
+
+
+/* ROLLOUT SECTION */
+
+.rollout-section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 6rem 0;
+}
+
+
+.rollout-info,
+.rollout-section > img {
+    max-width: 45%;
+    padding: 1rem;
+}
+
+.rollout-info p {
+    line-height: 150%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* KEY FEATURE STYLING */
+.dispute-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.dispute-features > h2 {
+    font-size: 2.3rem;
+    padding-block: 1rem;
+}
+
+.dispute-features > p {
+    font-size: 1.2rem;
+}
+
+.key-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.list li {
+    padding-block: .5rem;
+}
+
+/* TESTIMONIAL STYLING */
+
+.testimonials {
+    margin-top: 10rem;
+}
+
+.testimonials img {
+    height: 50%;
+}
+
+.test {
+    height: 250px;
+    background: url(../images/bg.jpg);
+}
+
