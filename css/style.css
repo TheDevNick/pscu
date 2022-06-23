@@ -43,6 +43,14 @@ input[type="email"] {
     margin: 5rem 1rem;
 }
 
+.top-left {
+    position: absolute;
+    top: 180px;
+    left: 95px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
 /* ROLLOUT HEADINGS STYLING */
 .rollout-headings {
     display: flex;
