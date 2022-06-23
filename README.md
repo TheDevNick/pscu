@@ -15,7 +15,7 @@ I would definitely improve the form if I had more time to do so. I feel like the
 
 ## Lessons Learned:
 
-I am so used to doing custom styling that I forgot how tricky Bootstrap can be when you are trying to override their styling. I had fun workin on the validation even though I was running into a few roadblocks. I chose to use some regex and I definitely struggled with it! But I think I got the functionality to do what I wanted it to.
+I am so used to doing custom styling that I forgot how tricky Bootstrap can be when you are trying to override their styling. I had fun working on the validation even though I was running into a few roadblocks. I chose to use some regex and I definitely struggled with it! But I think I got the functionality to do what I wanted it to.
 
 
 
