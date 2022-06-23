@@ -1,4 +1,4 @@
-# My Awesome Project
+# PSCU Project
 This is my version of one of the landing pages for PSCU.
 
 **Link to project:** https://super-sable-5addb9.netlify.app/
