@@ -8,6 +8,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    color: #4D4D4F ;
 }
 
 li {
@@ -18,6 +19,22 @@ i {
     padding-right: .2rem;
     color: rgb(137, 215, 27);
 }
+
+
+label {
+    padding-right: .5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    padding: .2rem .5rem;
+    margin: 0 .3rem;
+    border-radius: 5px;
+}
+
+
 
 
 /* HERO IMG STYLING */
@@ -37,10 +54,12 @@ i {
 .rollout-headings > h1 {
     font-size: 2.3rem;
     padding-block: 1rem;
+    color: #013757;
 }
 
 .rollout-headings > p {
     font-size: 1.2rem;
+    color: #096aa2;
 }
 
 
@@ -76,23 +95,30 @@ i {
 .dispute-features > h2 {
     font-size: 2.3rem;
     padding-block: 1rem;
+    color: #013757;
 }
 
 .dispute-features > p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: #096aa2;
+
 }
 
 .key-features {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 2rem;
+}
+.feature-list > h3 {
+    font-size: 1.2rem;
+    color: #096aa2;
 }
 
 .list {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: .2rem;
 }
 
 .list li {
@@ -101,16 +127,222 @@ i {
 
 /* TESTIMONIAL STYLING */
 
-.testimonials {
-    margin-top: 10rem;
-}
+
 
 .testimonials img {
     height: 50%;
 }
 
 .test {
-    height: 250px;
+    height: 275px;
     background: url(../images/bg.jpg);
 }
 
+/* PHASES SECTION STYLING */
+
+.phases-section img {
+    height: 75px;
+    width: auto;
+    margin-block: .7rem;
+}
+
+.phases-section {
+    margin-block: 1.5rem;
+}
+
+.phases-section > h2 {
+    color: #013757;
+    font-size: 2.5rem;
+}
+
+.feature-phase-heading {
+    color: #013757;
+}
+.phases-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phases-top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phases-top-row div,
+.phases-bottom-row div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phases-top-row div p,
+.phases-bottom-row div p {
+    font-size: .9rem;
+}
+
+.phases-bottom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FUTURE PHASES STYLING */
+
+.future-phases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: .5rem
+}
+
+
+.future-phases div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.future-phases div p {
+    margin-block: 1rem;
+    max-width: 50%;
+}
+/* ACCORDION STYLING */
+#seeMore {
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTACT STYLING */
+.faq-heading {
+    color: #013757;
+    font-size: 2.2rem;
+}
+.questions {
+    background: #E7F1FF;
+}
+.questions-heading > h3 {
+    color: #013757;
+}
+.questions-heading > p {
+    color: #096aa2;
+}
+
+.form-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 3rem;
+}
+
+.name-container,
+.phone-email-container,
+.ask-question {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.ask-question{
+    flex-direction: column;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+	background: #013757;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	outline: none;
+	padding: .8rem 2rem;
+    margin-block: 2rem;
+}
+
+
+
+/* VALIDATION */
+.form-ctrl.error input {
+	border-color: #e74c3c;
+}
+
+.form-ctrl.success input {
+	border-color: #2ecc71;
+}
+
+.form-ctrl small {
+	color: #e74c3c;
+    display: none;
+}
+
+.form-ctrl.error small {
+	display: block;
+}
+
+.form-ctrl i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-ctrl.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-ctrl.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-ctrl.error {
+    display: flex;
+}
+
+
+
+/* RESPONSE PAGE STYLING */
+.responseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.footer-container {
+    color: #fff;
+    background: #013757;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-logo {
+    max-width: 50%;
+}
+
+.footer-info-2 ul li {
+    padding-block: .5rem;
+}
